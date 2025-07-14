@@ -23,9 +23,9 @@ This repository contains Jupyter notebooks demonstrating **Trotterized time evol
 ## Physics Background
 
 The simulations are based on the Hamiltonian:
-$$\\[
+$$\[
 H = J \sum Z_i Z_{i+1} + h \sum X_i
-\\]$$
+\]$$
 where:
 - \\( J \\) is the ZZ interaction (qubit-qubit coupling)
 - \\( h \\) is the transverse field (coherent drive)
