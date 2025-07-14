@@ -27,11 +27,11 @@ $$\[
 H = J \sum Z_i Z_{i+1} + h \sum X_i
 \]$$
 where:
-- \\( J \\) is the ZZ interaction (qubit-qubit coupling)
-- \\( h \\) is the transverse field (coherent drive)
+- $$\( J \)$$ is the ZZ interaction (qubit-qubit coupling)
+- $$\( h \)$$ is the transverse field (coherent drive)
 
 Each Trotter step approximates:
-\\[
+$$\[
 U(\delta t) \approx e^{-i H_X \delta t / 2} \cdot e^{-i H_Z \delta t} \cdot e^{-i H_X \delta t / 2}
-\\]
+\]$$
 
